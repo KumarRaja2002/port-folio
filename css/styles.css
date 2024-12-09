@@ -1,0 +1,726 @@
+/* Logo Image Styling */
+.container{
+  background-color: #F0F8FF;
+}
+.logo-img {
+  height: 40px;
+  /* Adjust the size of the logo */
+  max-width: 100%;
+  /* Ensure the logo scales well */
+}
+
+/* Navbar background color */
+nav {
+  background-color: #F5FFFA;
+}
+
+/* Navbar items styling */
+.navbar-nav .nav-item .nav-link {
+  color:#333;
+  font-weight: 50px;
+  transition: background-color 0.3s ease;
+  /* Smooth transition on hover */
+}
+.navbar-nav .nav-item .nav-link:hover {
+  font-weight: bold; /* Make text bold on hover */
+  color: #000; /* Optional: Change text color for better visibility */
+}
+/* Toggler button customization */
+.navbar-toggler-icon {
+  background-color: white;
+  /* White color for the toggler icon */
+}
+
+/* Section 1 Styling */
+.section-1 {
+  display: flex; /* Enable Flexbox for row layout */
+  flex-direction: row; /* Align items in a row */ 
+  justify-content: space-between; /* Space between sections */
+  background-color: #f9f9f9; /* Light gray background for contrast */
+  padding-right: 1rem; /* Add padding around the section */
+  padding: 30px;
+  border-radius: 15px; /* Slightly larger rounded corners for aesthetics */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin: 2rem auto; /* Center section horizontally */
+  max-width: 1200px; /* Limit section width */
+}
+
+/* Image Section */
+.image-section {
+  display: flex;
+  flex-direction: column; /* Stack images vertically */
+  align-items: center; /* Center align images */
+  gap: 1.5rem; /* Add spacing between images */
+}
+
+.my-image {
+  height: 40vh;
+  width: auto; /* Maintain aspect ratio */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Add shadow for depth */
+  border-radius: 15px; /* Larger rounded corners for modern design */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth hover animation */
+}
+
+.my-image:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a deeper shadow */
+  border: 2px solid #007bff; /* Add a blue border on hover */
+}
+
+.sign-image {
+  height: 15vh;
+  width: auto; /* Maintain aspect ratio */
+  border-radius: 15px; /* Rounded corners for signature */
+}
+
+/* Text Section */
+.text-section {
+  flex: 1; /* Allow text section to grow */
+  padding-left: 2rem; /* Space between image and text */
+  text-align: left; /* Align text to the left */
+}
+
+.text-section h3 {
+  font-size: 2rem;
+  color: #333; /* Dark gray for better readability */
+  margin-bottom: 0.5rem; /* Space below heading */
+  font-family: 'Arial', sans-serif; /* Clean font style */
+}
+
+.text-section p {
+  color: #555; /* Medium gray for description text */
+}
+
+.degree {
+  display: flex; /* Enable Flexbox for row layout */
+  flex-direction: row; /* Arrange items in a row */
+  margin: 1rem auto; /* Center the degree section horizontally */
+  max-width: 1200px; /* Limit width for larger screens */
+  justify-content: space-between; /* Distribute sections evenly */
+  gap: 1rem; /* Add spacing between sections */
+}
+
+.degree-section {
+  display: flex; /* Enable Flexbox for content alignment */
+  flex-direction: row; /* Arrange image and text side by side */
+  gap: 10px; /* Add spacing between icon and text */
+  font-weight: bold;
+}
+
+.degree-icon {
+  height: 20px; /* Ensure all icons are uniform in size */
+  width: 20px; /* Ensure all icons are uniform in size */
+  background-color: #f0f0f0; /* Light background for contrast */
+  display: flex; /* Ensure alignment within the icon */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+/* General button styles */
+.buttons {
+  display: flex;
+  gap: 20px; /* Add spacing between buttons */
+  margin-top: 20px; /* Add space above buttons */
+}
+
+.btn-1 {
+  display: flex;
+  padding:10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none; /* Remove underline */
+  color: #333;
+  cursor: pointer;
+  border-color: #333;
+}
+
+.btn-1 i {
+  margin-right: 8px; /* Add space between icon and text */
+  font-size: 1.2rem; /* Increase icon size */
+}
+
+.btn-1:hover {
+  transform: translateY(-4px); /* Lift effect on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+
+.btn-1 i {
+  font-size: 1.2rem; /* Icon size */
+}
+/* Section 2 Styling */
+.section-2 {
+  display: flex; /* Enable Flexbox for layout */
+  flex-direction: row; /* Arrange items in a row */
+  justify-content: space-between; /* Space between the text and video */
+  align-items: stretch; /* Stretch items to the same height */
+  padding: 3rem 2rem; /* Add padding around the section */
+  background-color: #f7f7f7; /* Light background color */
+  border-radius: 15px; /* Rounded corners for aesthetics */
+  margin: 2rem auto; /* Center the section horizontally */
+  max-width: 1200px; /* Limit section width */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+}
+
+/* Text Section Styling */
+.self-intro-para {
+  flex: 1; /* Allow text section to grow */
+  font-family: 'Arial', sans-serif; /* Clean, sans-serif font */
+  font-size: 1rem; /* Set the font size */
+  line-height: 1.6; /* Increase line height for readability */
+  color: #333; /* Dark text color */
+  padding-right: 2rem; /* Add space between text and video */
+  display: flex;
+  align-items: center; /* Vertically center the paragraph text */
+}
+
+/* Video Section Styling */
+.self-intro-video {
+  flex: 1; /* Allow video section to grow */
+  max-width: 45%; /* Limit video width */
+  display: flex;
+  justify-content: center; /* Center video horizontally */
+  align-items: center; /* Center video vertically */
+}
+
+.self-intro-video video {
+  width: 100%; /* Make the video responsive */
+  height: 100%; /* Make the video take the full height of the container */
+  border-radius: 10px; /* Round corners of the video */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for video */
+  object-fit: cover; /* Maintain aspect ratio of the video */
+}
+.skills {
+  text-align: center; /* Center the heading */
+  padding: 2rem; /* Add padding around the section */
+  background-color: #f7f7f7; /* Light background color */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 1200px; /* Limit section width */
+  margin: 2rem auto; /* Center the section */
+}
+
+.skills h1 {
+  font-family: 'Arial', sans-serif; /* Clean font style */
+  font-size: 2rem; /* Larger font size for heading */
+  color: #333; /* Dark text color */
+  margin-bottom: 1.5rem; /* Space below the heading */
+}
+
+/* Skills Grid */
+.skills-container {
+  display: flex; /* Enable Flexbox for row layout */
+  flex-wrap: wrap; /* Allow wrapping to the next row */
+  justify-content: center; /* Center all items horizontally */
+  gap: 1.5rem; /* Add spacing between items */
+  margin-top: 2rem; /* Add space between heading and items */
+}
+
+/* Individual Skill Items */
+.images {
+  display: flex; /* Enable Flexbox */
+  align-items: center; /* Center align image and text vertically */
+  gap: 1rem; /* Add space between image and text */
+  padding: 1rem; /* Add padding around the container */
+  border-radius: 10px; /* Rounded corners */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effects */
+  width: 200px; /* Fixed width for each skill item */
+  flex-shrink: 0; /* Prevent items from shrinking */
+}
+
+.images:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.images img {
+  width: 50px; /* Fixed width for image */
+  height: 50px; /* Fixed height for image */
+  border-radius: 10px; /* Slight rounding for images */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for images */
+}
+
+.images p {
+  font-family: 'Arial', sans-serif; /* Clean font style */
+  font-size: 1rem; /* Standard font size */
+  color: #555; /* Medium text color */
+  margin: 0; /* Remove default margin */
+  text-align: left; /* Align text to the left */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .section-2 {
+    flex-direction: column; /* Stack text and video vertically on smaller screens */
+    align-items: flex-start; /* Align items to the left */
+  }
+
+  .self-intro-video {
+    max-width: 100%; /* Allow video to take full width on mobile */
+    margin-top: 2rem; /* Add space between text and video */
+    height: auto; /* Reset height on smaller screens */
+  }
+
+  .self-intro-para {
+    padding-right: 0; /* Remove right padding on mobile */
+  }
+}
+
+/* Projects Section Styling */
+.projects {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 2rem auto;
+  overflow: hidden; /* Hide overflow beyond section */
+}
+
+.projects h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+/* Projects Container */
+.projects-container {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  gap: 2rem;
+  scrollbar-width: none; /* Custom scrollbar for Firefox */
+  padding-bottom: 1rem; /* Add padding for scrollbar */
+}
+
+.projects-container::-webkit-scrollbar {
+  height: 8px; /* Height of scrollbar for horizontal scrolling */
+}
+
+.projects-container::-webkit-scrollbar-thumb {
+  background-color: #aaa; /* Default scrollbar thumb color */
+  border-radius: 10px;
+}
+
+.projects-container::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Hover effect for scrollbar thumb */
+}
+
+.projects-container::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Track color */
+  border-radius: 10px;
+}
+
+/* Individual Project Styling */
+.project-1 {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  flex-shrink: 0; /* Prevent shrinking for scrolling */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-1 h1 {
+  font-size: 1.5rem;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.insidetext {
+  display: grid;              /* Use CSS Grid for layout */
+  grid-template-columns: repeat(2, 1fr); /* Default to 2 columns for larger screens */
+  gap: 1rem;                  /* Space between items */
+  margin-bottom: 1.5rem;      /* Space at the bottom of the tech used section */
+         /* Add padding on sides */
+}
+
+.tech-used { 
+  background-color:#F0F8FF;
+/* Background color for the tech used items */
+  color: black;               /* White text for contrast */          /* Padding inside each item */
+  border-radius: 4px;         /* Rounded corners for a sleek look */            /* Set a base font size */
+  display: flex;              /* Flexbox to center content */
+ 
+}
+.cert-image {
+  height: auto;
+  width: 40px; 
+}
+
+.c-1{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 1rem;
+  border-radius: 15px; 
+  max-width: 1200px;
+}
+.certificates{
+  padding: 3rem;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 1200px;
+  text-align: center;
+  margin: 2rem auto;
+}
+.certificates-h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Carousel controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #000; /* Black color */
+  border-radius: 50%;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  background-size: 100%; /* Ensure the icon fills the button */
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+  background-color: #333; /* Darker black for hover effect */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-control-prev-icon:after,
+.carousel-control-next-icon:after {
+  content: '';
+  display: block;
+}
+.contact-section
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 50px auto;
+  gap: 20px;
+  font-size: 18px;
+
+}
+.thankyou
+{
+  text-align: center;
+  color: #495057;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Dancing Script', cursive;
+  padding-bottom: 40px
+}
+
+.thankyou a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: black; /* White text for contrast */
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+@media (max-width: 480px) {
+  /* Global adjustments for small screens */
+
+  /* Degree Section */
+  .degree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .degree-section {
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .degree-icon {
+    width: 20px;
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+
+  .degree-section p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+
+  /* Paragraph Section */
+  .paragraph p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 1rem 0;
+    padding: 0 1rem;
+  }
+
+  /* Certificates Section */
+  .certificates {
+    padding: 1rem;
+  }
+
+  .certificates-h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .carousel-inner {
+    display: block;
+  }
+
+  .carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .project-1 {
+    flex: 1 1 calc(33.333% - 20px);  /* Default for larger screens, 3 items per row */
+    margin: 10px;
+    box-sizing: border-box;
+  }
+
+  .project-1 h1 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .project-1 p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .insidetext {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .tech-used p {
+    font-size: 0.9rem;
+    color: #777;
+  }
+
+  .btn-1 {
+    font-size: 1rem;
+    padding: 8px 15px;
+    margin-top: 1rem;
+  }
+
+  /* Contact Section */
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .contact, .mail, .address {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+  .c-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Center content and arrange in columns on smaller screens */
+  .bi {
+    font-size: 1.5rem;
+    color: #333;
+  }
+
+  .contact span, .mail span, .address span {
+    font-size: 1rem;
+    color: #555;
+  }
+
+  .logo-img {
+    height: 30px;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+  }
+
+  .self-intro-para {
+    font-size: 1rem;
+  }
+
+  .btn-1 {
+    font-size: 0.9rem;
+    padding: 6px;
+  }
+
+  .project-1 {
+    width: 100%;
+  }
+
+  .skills-container {
+    gap: 0.5rem;
+  }
+
+  .skills-container .images {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .projects-container {
+    flex-direction: column;
+  }
+  .section-1 {
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+  }
+  .section-1 h{
+    font-size: medium;
+  }
+
+  .image-section {
+    flex: 1;
+    align-items: flex-start;
+  }
+
+  .text-section {
+    flex: 2;
+    text-align: left;
+  }
+
+  .degree {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+  }
+
+  .degree-section {
+    flex: 1;
+    text-align: left;
+  }
+
+  .degree-icon {
+    width: 40px;
+    height: auto;
+    margin-bottom: 0.75rem;
+  }
+
+  .degree-section p {
+    font-size: 1.1rem;
+  }
+
+  .paragraph p {
+    font-size: 1.1rem;
+  }
+
+
+} 
+
+@media (min-width: 481px) and (max-width: 1024px) {
+
+  /* Degree Section */
+  .section-1 {
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+  }
+  .degree {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: space-between; /* Create space between items */
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .degree-section {
+    text-align: center;
+    width: calc(50% - 1rem); /* Two columns */
+    padding: 0.75rem;
+  }
+
+  .degree-icon {
+    width: 30px;
+    height: auto;
+    margin-bottom: 0.75rem;
+  }
+
+  .degree-section p {
+    font-size: 1rem;
+    color: #555;
+  }
+
+
+  .certificates-h1 {
+    font-size: 1.75rem;
+    text-align: center;
+    margin-bottom: 1.25rem;
+  }
+
+   .carousel-inner {
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Adjust width for multiple columns */
+  } 
+
+  /* Certificates Section c-1 - Create column layout */
+ 
+    .c-1 {
+      flex-direction: column;  /* Ensure column layout */
+      align-items: center;     /* Keep items centered */
+      gap: 2rem;
+    }
+
+
+  /* Adjust certificates item widths */
+  
+  /* Adjust Buttons */
+  .btn-1 {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    margin-top: 1.25rem;
+  }
+}
+
+
+
